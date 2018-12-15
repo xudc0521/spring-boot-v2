@@ -1,0 +1,9 @@
+# ElasticSearch服务地址
+spring:
+  data:
+    elasticsearch:
+      cluster-nodes: localhost:9300
+      properties:
+        transport:
+          tcp:
+            connect_timeout: 120s # 连接超时时间
