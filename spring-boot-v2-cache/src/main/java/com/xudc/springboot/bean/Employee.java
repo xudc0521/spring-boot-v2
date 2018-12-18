@@ -5,6 +5,8 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.ToString;
 
+import java.io.Serializable;
+
 /**
  * @author xudc
  */
@@ -12,8 +14,9 @@ import lombok.ToString;
 @ToString
 @NoArgsConstructor
 @AllArgsConstructor
-public class Employee {
-	
+public class Employee implements Serializable {
+
+	private static final long serialVersionUID = -17634288327337690L;
 	private Integer id;
 	private String lastName;
 	private String email;
