@@ -4,10 +4,11 @@ spring:
     url: jdbc:mysql://localhost:3306/springboot?useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull&serverTimezone=GMT%2B8
     username: root
     password: root
-    driver-class-name: com.mysql.cj.jdbc.Driver
+    driver-class-name: com.mysql.cj.jdbc.Driver # 可以不设置,默认会根据连接自动识别对应的驱动
   redis:
-    host: 47.96.109.227
+    host: localhost # 自己的Redis地址
 mybatis:
   configuration:
-    map-underscore-to-camel-case: true
+    map-underscore-to-camel-case: true # 自动将数据库自动转换成驼峰命名规则 如 user_id --> userId
+# 开启debug模式,便于查看加载的容器等信息
 debug: true
