@@ -1,0 +1,7 @@
+spring:
+  rabbitmq:
+    host: 47.96.109.227
+    port: 5672 # 默认5672,一致可不写
+    username: guest # 默认guest,一致可不写
+    password: guest # 默认guest,一致可不写
+#    virtual-host: / # 默认是"/",一致可不写,public void setVirtualHost(String virtualHost) {this.virtualHost = "".equals(virtualHost) ? "/": virtualHost;}
