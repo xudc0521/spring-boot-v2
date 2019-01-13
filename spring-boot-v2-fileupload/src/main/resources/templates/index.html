@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>文件上传Demo</title>
+</head>
+<body>
+<h2>单文件上传示例</h2>
+<div>
+    <form method="POST" enctype="multipart/form-data" action="/upload1">
+        <p>
+            文件：<input type="file" name="file"/>
+            <input type="submit" value="上传"/>
+        </p>
+    </form>
+</div>
+
+<hr/>
+<h2>多文件上传示例</h2>
+<div>
+    <form method="POST" enctype="multipart/form-data" action="/upload2">
+        <p>
+            文件1：<input type="file" name="file"/>
+        </p>
+        <p>
+            文件2：<input type="file" name="file"/>
+        </p>
+        <p>
+            <input type="submit" value="上传"/>
+        </p>
+    </form>
+</div>
+</body>
+</html>
