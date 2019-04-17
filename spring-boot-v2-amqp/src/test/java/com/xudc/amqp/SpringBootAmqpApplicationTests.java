@@ -19,7 +19,7 @@ import java.util.Map;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class SpringBootV2AmqpApplicationTests {
+public class SpringBootAmqpApplicationTests {
 
     @Autowired
     private RabbitTemplate rabbitTemplate;

@@ -1,6 +1,6 @@
 spring:
   rabbitmq:
-    host: 47.96.109.227
+    host: 192.168.0.2 # RabbitMQ主机IP
     port: 5672 # 默认5672,一致可不写
     username: guest # 默认guest,一致可不写
     password: guest # 默认guest,一致可不写
