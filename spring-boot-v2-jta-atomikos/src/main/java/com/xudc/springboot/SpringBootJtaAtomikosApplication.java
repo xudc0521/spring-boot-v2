@@ -11,10 +11,10 @@ import org.springframework.boot.context.properties.EnableConfigurationProperties
  */
 @SpringBootApplication
 @EnableConfigurationProperties(value = {DBConfig1.class, DBConfig2.class})
-public class SpringBootV2JtaAtomikosApplication {
+public class SpringBootJtaAtomikosApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(SpringBootV2JtaAtomikosApplication.class, args);
+        SpringApplication.run(SpringBootJtaAtomikosApplication.class, args);
     }
 
 }
