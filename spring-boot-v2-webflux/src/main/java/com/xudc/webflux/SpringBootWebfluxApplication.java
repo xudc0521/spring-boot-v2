@@ -4,12 +4,15 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.data.mongodb.repository.config.EnableReactiveMongoRepositories;
 
+/**
+ * @author xudc
+ */
 @SpringBootApplication
 @EnableReactiveMongoRepositories
-public class SpringBootV2WebfluxApplication {
+public class SpringBootWebfluxApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(SpringBootV2WebfluxApplication.class, args);
+        SpringApplication.run(SpringBootWebfluxApplication.class, args);
     }
 
 }
