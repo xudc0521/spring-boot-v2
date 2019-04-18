@@ -7,10 +7,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @author xudc
  */
 @SpringBootApplication
-public class SpringBootV2DruidApplication {
+public class SpringBootAopApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(SpringBootV2DruidApplication.class, args);
+        SpringApplication.run(SpringBootAopApplication.class, args);
     }
 
 }
