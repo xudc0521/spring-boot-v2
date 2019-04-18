@@ -14,7 +14,7 @@ import java.sql.SQLException;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class SpringBootV2DruidApplicationTests {
+public class SpringBootDruidApplicationTests {
 
 
     @Autowired
