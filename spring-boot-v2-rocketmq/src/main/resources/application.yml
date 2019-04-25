@@ -1,0 +1,7 @@
+server:
+  port: 80
+rocketmq:
+  name-server: 127.0.0.1:9876 # 自己的RocketMQ服务地址
+  producer:
+    send-message-timeout: 300000
+    group: my-group
