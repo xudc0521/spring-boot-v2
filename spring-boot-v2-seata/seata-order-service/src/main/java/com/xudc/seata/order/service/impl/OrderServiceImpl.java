@@ -28,7 +28,7 @@ public class OrderServiceImpl implements OrderService {
     private StorageFeignClient storageFeignClient;
 
     @Override
-    @GlobalTransactional/*(name = "my_test_tx_group", rollbackFor = {Exception.class,RuntimeException.class})*/
+    @GlobalTransactional
     public void create(String userId, String commodityCode, int orderCount) {
         int orderMoney = calculate(commodityCode, orderCount);
         Order order = new Order();
