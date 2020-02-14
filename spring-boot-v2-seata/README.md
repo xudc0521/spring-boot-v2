@@ -291,7 +291,7 @@ CREATE TABLE `undo_log` (
 ```
 
 ## 5. 下载运行seata-server服务
-下载地址：https://seata.io/zh-cn/blog/download.html，根据需要下载相应版本。解压后，`seata/conf`目录有以上需要的配置等。修改相应的配置，启动运行。双击`seata/bin`目录下的`seata-server.bat`或者执行以下命令运行：
+下载地址：<https://seata.io/zh-cn/blog/download.html>，根据需要下载相应版本。解压后，`seata/conf`目录有以上需要的配置等。修改相应的配置，启动运行。双击`seata/bin`目录下的`seata-server.bat`或者执行以下命令运行：
 ```shell script
 sh ./bin/seata-server.sh
 ```
@@ -324,11 +324,11 @@ sh ./bin/seata-server.sh
 
 - 正常测试
 
-http://localhost:8081/order/create?userId=1&commodityCode=book&orderCount=1
+<http://localhost:8081/order/create?userId=1&commodityCode=book&orderCount=1>
 
 - 异常测试
 
-http://localhost:8081/order/create?userId=1&commodityCode=book&orderCount=3
+<http://localhost:8081/order/create?userId=1&commodityCode=book&orderCount=3>
 
 > 这里我代码里写了orderCount==3时候会抛异常，用于测试。另外，我们也可以去掉`@GlobalTransactional`测试。
 
