@@ -1,0 +1,28 @@
+spring:
+  application:
+    name: order-service
+  devtools:
+    livereload:
+      port: 35731
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: root
+    url: jdbc:mysql://localhost:3306/seata-order?characterEncoding=utf8&useSSL=false
+  cloud:
+    alibaba:
+      seata:
+        tx-service-group: my_test_tx_group
+server:
+  port: 8081
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka
+mybatis:
+  type-aliases-package: com.xudc.seata.order.pojo
+  configuration:
+    map-underscore-to-camel-case: true

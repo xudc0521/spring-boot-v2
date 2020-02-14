@@ -1,0 +1,28 @@
+spring:
+  application:
+    name: account-service
+  devtools:
+    livereload:
+      port: 35732
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: root
+    url: jdbc:mysql://localhost:3306/seata-account?characterEncoding=utf8&useSSL=false
+  cloud:
+    alibaba:
+      seata:
+        tx-service-group: my_test_tx_group
+server:
+  port: 8083
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka
+  instance:
+    prefer-ip-address: true
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true
+  type-aliases-package: com.xudc.seata.account.pojo
