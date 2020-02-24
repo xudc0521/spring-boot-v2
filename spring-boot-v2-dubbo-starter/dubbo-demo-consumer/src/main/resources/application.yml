@@ -1,0 +1,10 @@
+server:
+  port: 80
+dubbo:
+  registry:
+    address: zookeeper://127.0.0.1:2181
+  application:
+    version: 1.0.0
+spring:
+  application:
+    name: dubbo-demo-consumer

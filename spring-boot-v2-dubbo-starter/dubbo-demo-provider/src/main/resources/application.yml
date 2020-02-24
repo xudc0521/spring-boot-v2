@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: dubbo-demo-provider
+dubbo:
+  registry:
+    address: zookeeper://127.0.0.1:2181
+  protocol:
+    port: -1 # 随机端口
+  scan:
+    base-packages: com.xudc.dubbo.provider.service
+  application:
+    version: 1.0.0
