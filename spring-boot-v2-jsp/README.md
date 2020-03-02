@@ -32,7 +32,7 @@
 ```
 ## 新建目录
 新建`src/main/webapp/WEB-INF/views`目录用于存放`jsp`资源文件：
-![在这里插入图片描述](https://img-blog.csdnimg.cn/2020030217291214.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0UwOTYyMDEyNg==,size_16,color_FFFFFF,t_70 =500x)
+![在这里插入图片描述](https://img-blog.csdnimg.cn/2020030217291214.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0UwOTYyMDEyNg==,size_16,color_FFFFFF,t_70)
 ## 修改配置
 修改`application.yml` / `application.properties`文件：
 ```yaml
