@@ -11,10 +11,9 @@
     <title>Title</title>
 </head>
 <body>
+<h3>Welcome,${name}!</h3>
 
 This is a jsp page.<br/>
-name:${name}<br/>
-age:${age}
 
 </body>
 </html>
