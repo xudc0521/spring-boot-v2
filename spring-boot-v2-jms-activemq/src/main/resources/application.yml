@@ -1,7 +1,7 @@
 spring:
   activemq:
-    broker-url: tcp://192.168.0.2:61616 # activemq消息组件的连接主机
+    broker-url: tcp://192.168.0.14:61616 # activemq消息组件的连接主机
     user: admin
     password: admin # 账号密码默认为admin
-  jms:
-    pub-sub-domain: true # 启用发布订阅模式（默认关闭是点对点模式）
+#  jms:
+#    pub-sub-domain: true # 启用发布订阅模式（默认关闭是点对点模式）
