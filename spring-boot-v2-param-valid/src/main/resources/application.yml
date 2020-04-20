@@ -1,0 +1,9 @@
+server:
+  port: 80
+spring:
+  thymeleaf:
+    cache: false
+    prefix: classpath:/templates/
+    suffix: .html
+  application:
+    name: spring-boot-params-valid
