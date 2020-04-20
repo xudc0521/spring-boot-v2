@@ -131,13 +131,13 @@ public class BootValidApplication {
 ```
 
 - 启动后，打开表单页，输入不合参数并提交：
-![image.png](https://i.loli.net/2020/04/20/WtlfAgsyj5DY7XT.png)
-![image.png](https://i.loli.net/2020/04/20/8uleAFpfahC96bM.png)
-![image.png](https://i.loli.net/2020/04/20/DefkQbM52dI4Y1n.png)
+![](https://pic.downk.cc/item/5e9dc1fac2a9a83be5d32106.jpg)
+![](https://pic.downk.cc/item/5e9dc081c2a9a83be5d20482.jpg)
+![](https://pic.downk.cc/item/5e9dc04cc2a9a83be5d1c64d.png)
 
 - 输入正确的参数提交：
-![image.png](https://i.loli.net/2020/04/20/3eKFxGqWrwys2fI.png)
-![image.png](https://i.loli.net/2020/04/20/cetn28lx5vHMa3T.png)
+![](https://pic.downk.cc/item/5e9dbf69c2a9a83be5d0b510.jpg)
+![](https://pic.downk.cc/item/5e9dbf92c2a9a83be5d0e626.jpg)
 
 ## 完整代码
 
